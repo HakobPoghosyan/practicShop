@@ -8,11 +8,7 @@ hmtl, body {
     line-height: 1.5;
     font-size: 16px;
     height: 100%;
-    zoverflow-x: hidden;
-}
-
-.headerDiv {
-    width: 100%;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -96,7 +92,7 @@ hmtl, body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 
+    width: 100%;
 }
 
 h1 {
@@ -112,6 +108,8 @@ p {
     padding-top: 16px;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .avatar {
@@ -119,17 +117,12 @@ p {
     border-radius: 50%;
 }
 
-.img-margin {
-    margin-right: 30%;
-}
-
 .h1-avatar {
     font-size: 24px;
 }
 
 .work {
-    width: 100%;
-    padding: 64px 16px;
+    padding: 64px 8px;
     background-color: #333333;
     color: white;
     display: flex;
@@ -137,22 +130,27 @@ p {
 }
 
 .text-work {
-    padding-left: 8px;
+    width: 24%;
+    padding: 0px 8px;
 }
 
 .customer {
-    width: 47vh;
-    margin: 0px 8px;
     background-color: white;
     color: black;
 }
 
+.customer-padding {
+    width: 24%;
+    padding: 0px 8px;
+}
+
 .img-customer {
-    width: 47vh;;
+    width: 100%;
 }
 
 .div-customer {
     padding: 0px 16px;
+    padding-bottom: 4px;
 }
 
 .price {
