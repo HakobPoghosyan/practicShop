@@ -1,0 +1,40 @@
+@media only screen and (max-width: 601px) {
+    
+    .img-div {
+        flex-direction: column;
+    }
+    
+    .avatar {
+        width: 250px;    
+    }
+    
+    .work {
+        flex-direction: column;
+        padding-right: 22px;
+    }
+    
+    .text-work {
+        width: 100%;
+    }
+    
+    .customer-padding {
+        width: 100%;
+    }
+    
+    ul {
+        margin-right: 0px;
+    }
+    
+    .div-price {
+        flex-direction: column;
+    }
+    
+    .tab {
+        width: 100%;
+        padding-top: 16px;
+    }
+    
+    .contact {
+        flex-direction: column;
+    }
+}
